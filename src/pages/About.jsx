@@ -1,8 +1,7 @@
 import Card from "../components/Card";
 
 function About(){
-
-    const Users=
+const Users=
 [
     {
       user:

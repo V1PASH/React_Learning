@@ -6,7 +6,7 @@ function Header(){
         <>
             <nav>
                 <span className="NavLogo">
-                    MyPage
+                    <img src="/src/assets/images/logo.png" alt="" />
                 </span>
                 <ul className='NavList'>
                     <li className='NavListItem'>

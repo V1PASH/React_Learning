@@ -12,7 +12,7 @@ import { createBrowserRouter,RouterProvider } from 'react-router-dom';
 const router=createBrowserRouter([
   {
     path:'/',
-    element:<><Header/> <Home/></>
+    element:<><Header/><Home/></>
   },
   {
     path:'/dashboard',
@@ -29,6 +29,9 @@ const router=createBrowserRouter([
   {
     path:'/About',
     element:<><Header/><About/></>
+  },
+  {
+    path:'/Account/:id'
   }
 ])
 
