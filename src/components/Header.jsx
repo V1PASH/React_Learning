@@ -1,29 +1,28 @@
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import '../style/Header.css'
 
 function Header(){
     return(
         <>
             <nav>
-
                 <span className="NavLogo">
-                    PAGE
+                    MyPage
                 </span>
                 <ul className='NavList'>
                     <li className='NavListItem'>
-                        <Link to="/">Home</Link>
+                        <NavLink to="/">Home</NavLink>
                     </li>
                     <li className='NavListItem'>
-                        <Link to="/dashboard">Dashboard</Link>
+                        <NavLink to="/dashboard">Dashboard</NavLink>
                     </li>
                     <li className='NavListItem'>
-                        <Link to="/account">Account</Link>
+                        <NavLink to="/account">Account</NavLink>
                     </li>
                     <li className='NavListItem'>
-                        <Link to="/setting">Setting</Link>
+                        <NavLink to="/setting">Setting</NavLink>
                     </li>
                     <li className='NavListItem'>
-                        <Link to="/about">About</Link>
+                        <NavLink to="/about">About</NavLink>
                     </li>
                 </ul>
             </nav>
