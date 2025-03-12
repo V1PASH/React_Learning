@@ -8,7 +8,7 @@ a {
 /* card */
 
 .card {
-    width: 15%;
+    width: 20%;
     margin: 1%;
     overflow: hidden;
     height: fit-content;
@@ -18,7 +18,6 @@ a {
 
 .card-top {
     height: 200px;
-    border-radius: 20px;
     align-content: center;
 }
 
@@ -94,4 +93,19 @@ a {
     color: white;
     font-size: 20px;
     text-transform: uppercase;
+}
+
+
+/* media query */
+
+@media (min-width:768px) and (max-width:992px) {
+    .card {
+        width: 38%;
+    }
+}
+
+@media (min-width:300px) and (max-width:767px) {
+    .card {
+        width: 60%;
+    }
 }
