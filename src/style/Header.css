@@ -25,6 +25,10 @@ nav {
     justify-content: space-around;
 }
 
+.ActiveLink {
+    color: rgb(0, 245, 163);
+}
+
 .NavListItem a {
     text-decoration: none;
     color: rgb(255, 255, 255);

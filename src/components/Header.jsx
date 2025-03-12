@@ -10,19 +10,19 @@ function Header(){
                 </span>
                 <ul className='NavList'>
                     <li className='NavListItem'>
-                        <NavLink to="/">Home</NavLink>
+                        <NavLink to="/" className={({isActive})=>(isActive?"ActiveLink":"")}>Home</NavLink>
                     </li>
                     <li className='NavListItem'>
-                        <NavLink to="/dashboard">Dashboard</NavLink>
+                        <NavLink to="/dashboard"  className={({isActive})=>(isActive?"ActiveLink":"")}>Dashboard</NavLink>
                     </li>
                     <li className='NavListItem'>
-                        <NavLink to="/account">Account</NavLink>
+                        <NavLink to="/account"  className={({isActive})=>(isActive?"ActiveLink":"")}>Account</NavLink>
                     </li>
                     <li className='NavListItem'>
-                        <NavLink to="/setting">Setting</NavLink>
+                        <NavLink to="/setting"  className={({isActive})=>(isActive?"ActiveLink":"")}>Setting</NavLink>
                     </li>
                     <li className='NavListItem'>
-                        <NavLink to="/about">About</NavLink>
+                        <NavLink to="/about"   className={({isActive})=>(isActive?"ActiveLink":"")}>About</NavLink>
                     </li>
                 </ul>
             </nav>
